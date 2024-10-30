@@ -12,7 +12,7 @@ PORTSRC=$(TOPDIR)/hls/port_handler
 TCLDIR=$(TOPDIR)/scripts
 
 
-FPGAPART ?= xcu250-figd2104-2L-e
+FPGAPART ?= xczu48dr-ffvg1517-2-e
 
 project = ARP_hls_prj ETH_inserter_hls_prj ICMP_hls_prj PKT_HANDLER_prj UDP_prj
 

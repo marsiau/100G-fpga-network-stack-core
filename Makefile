@@ -13,7 +13,7 @@ nohbm:
 hbm:
 	mkdir -p synthesis_results_HBM
 	cp Makefile.synthesis synthesis_results_HBM/Makefile
-	make -C synthesis_results_HBM FPGAPART=xcu280-fsvh2892-2L-e -j4
+	make -C synthesis_results_HBM FPGAPART=xczu48dr-ffvg1517-2-e -j4
 
 .PHONY:versalaicore
 versalaicore:
