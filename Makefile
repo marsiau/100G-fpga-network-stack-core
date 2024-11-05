@@ -7,7 +7,7 @@ all: nohbm hbm versalaicore
 nohbm:
 	mkdir -p synthesis_results_noHBM
 	cp Makefile.synthesis synthesis_results_noHBM/Makefile
-	make -C synthesis_results_noHBM -j4
+	make -C synthesis_results_noHBM FPGAPART=xczu48dr-ffvg1517-2-e -j4
 
 .PHONY:hbm
 hbm:
